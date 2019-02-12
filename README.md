@@ -1,2 +1,2 @@
-# Management-
-VIT Hackathon
+# Management
+VIT Hackathon Management System
