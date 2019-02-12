@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "977687436054",
+    "firebase_url": "https://management-b8993.firebaseio.com",
+    "project_id": "management-b8993",
+    "storage_bucket": "management-b8993.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977687436054:android:04d4e08827aeec5b",
+        "android_client_info": {
+          "package_name": "com.realllydan.management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977687436054-rn54o6t0iovqh9lfsnhl8lm1hd1pv7hp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realllydan.management",
+            "certificate_hash": "cfd8b9f77b7f483f6b86aff25065ea27615cf264"
+          }
+        },
+        {
+          "client_id": "977687436054-607fd219ruf9vee807irc9g1i9gfoq1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuA4ChhRmDeqWNkw1VGCZNWaMz0k7Lato"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977687436054-607fd219ruf9vee807irc9g1i9gfoq1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

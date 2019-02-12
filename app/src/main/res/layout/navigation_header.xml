@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="?attr/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/nav_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"
+        android:textSize="28dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Management"
+        />
+
+    <TextView
+        android:id="@+id/nav_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Test Superuser"
+        android:layout_below="@id/nav_quote"
+        />
+
+    <TextView
+        android:id="@+id/nav_useremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#ffffff"
+        android:text="test@superuser.com"
+        android:layout_below="@+id/nav_username"/>
+
+    <TextView
+        android:id="@+id/nav_header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="VIT Hackathon"
+        android:layout_below="@id/nav_useremail"
+        />
+
+    <TextView
+        android:id="@+id/nav_header_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#ffffff"
+        android:text="All Management, One App"
+        android:layout_below="@+id/nav_header_name"/>
+
+    <TextView
+        android:id="@+id/nav_header_version_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#B3ffffff"
+        android:textStyle="bold"
+        android:text="Version:"
+        android:layout_below="@+id/nav_header_email"/>
+
+    <TextView
+        android:id="@+id/nav_header_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#B3ffffff"
+        android:textStyle="bold"
+        android:text="0"
+        android:layout_toEndOf="@+id/nav_header_version_title"
+        android:layout_below="@id/nav_header_email"/>
+
+</RelativeLayout>
