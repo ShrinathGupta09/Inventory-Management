@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="LoginActivity">
+
+    <include
+        android:id="@+id/login_toolbar"
+        layout="@layout/app_bar" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/iv_image"
+        android:layout_below="@+id/login_toolbar"/>
+    <EditText
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:textAlignment="center"
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_image"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:text="Product Name"/>
+    <EditText
+        android:id="@+id/et_cost"
+        android:layout_below="@+id/et_name"
+        android:layout_marginTop="45dp"
+        android:text="Product Cost "
+        android:textAlignment="center"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_quan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_cost"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:textAlignment="center"
+        android:text="Product Quantity"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+
+        android:layout_below="@+id/et_quan"
+        android:layout_marginTop="20dp"
+
+        android:text="Submit"/>
+
+</RelativeLayout>

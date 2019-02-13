@@ -65,19 +65,17 @@ public class LoginActivity extends AppCompatActivity {
         bLoginButton.setTypeface(Helvetica);
 
 
-        //Login Button Functionality
         bLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String email = etLoginEmail.getText().toString();
                 String password = etLoginPassword.getText().toString();
-                //Check if any field is null
                 if(email.matches("") && password.matches("")){
-                    Toast.makeText(getApplicationContext(), "Don't be Oversmart." +
+                    Toast.makeText(getApplicationContext(),
                             "Type your Email and Password", Toast.LENGTH_SHORT).show();
                 }else if(password.matches("")){
                     Toast.makeText(getApplicationContext(),
-                            "Who has ever logged in without a Password", Toast.LENGTH_SHORT).show();
+                            "Enter your password", Toast.LENGTH_SHORT).show();
                 }else if(email.matches("")){
                     Toast.makeText(getApplicationContext(),
                             "No Man has succeeded without an Email", Toast.LENGTH_SHORT).show();
@@ -119,7 +117,6 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         String showException = "Login Failed\n" + task.getException();
-                        //If Login is Successful go to the Main Activity
                         if (task.isSuccessful()) {
                             mLoginProgress.dismiss();
                             Intent mainIntent = new Intent(LoginActivity.this,
@@ -130,17 +127,14 @@ public class LoginActivity extends AppCompatActivity {
                             finish();
                         }else {
                             mLoginProgress.hide();
-                            //Check if E-mail or Pass is wrong, if yes...
                             if(task.getException() instanceof FirebaseAuthInvalidCredentialsException){
                                 Toast.makeText(getApplicationContext(), "Incorrect Email or Password",
                                         Toast.LENGTH_SHORT).show();
                             }else{
-                                //if not, Check if User Exists, if yes...
                                 if(task.getException() instanceof FirebaseAuthInvalidUserException) {
                                     Toast.makeText(getApplicationContext(), "You are not Registered",
                                             Toast.LENGTH_SHORT).show();
                                 }else{
-                                    //if not, Display what's the Problem, Yo?
                                     Toast.makeText(LoginActivity.this, showException, Toast.LENGTH_LONG).show();
                                 }
                             }
