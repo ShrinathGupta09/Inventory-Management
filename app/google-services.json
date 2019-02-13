@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "977687436054-6dq56l4plq042slntuqqdulqous5n0us.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realllydan.management",
+            "certificate_hash": "b3bc482ee89bd24216e1522fbfb8e42b6d1c1d80"
+          }
+        },
+        {
           "client_id": "977687436054-607fd219ruf9vee807irc9g1i9gfoq1e.apps.googleusercontent.com",
           "client_type": 3
         }

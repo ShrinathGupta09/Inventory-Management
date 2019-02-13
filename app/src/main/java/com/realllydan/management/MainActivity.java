@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "onClick: mFab clicked");
+
+                startActivity(new Intent(MainActivity.this,AddItemActivity.class) );
             }
         });
     }
