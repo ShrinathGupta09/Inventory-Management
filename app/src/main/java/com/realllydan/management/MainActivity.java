@@ -1,6 +1,7 @@
 package com.realllydan.management;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -17,8 +18,11 @@ import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -36,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements MerchandiseAdapte
     //vars
     private DatabaseReference mDatabase;
     private FirebaseAuth mAuth;
-    private String user_email;
+    private String uid, user_email;
     private ArrayList<Merchandise> mMerchandise = new ArrayList<>();
 
     @Override
@@ -62,7 +66,9 @@ public class MainActivity extends AppCompatActivity implements MerchandiseAdapte
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
                         switch (menuItem.getItemId()) {
                             case R.id.nav_test:
-                                Log.d(TAG, "onNavigationItemSelected: nav_test clicked");
+                                FirebaseAuth.getInstance().signOut();
+                                finish();
+                                sendBack();
                                 break;
                         }
 
@@ -75,6 +81,8 @@ public class MainActivity extends AppCompatActivity implements MerchandiseAdapte
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "onClick: mFab clicked");
+
+                startActivity(new Intent(MainActivity.this, AddItemActivity.class) );
             }
         });
     }
@@ -104,18 +112,26 @@ public class MainActivity extends AppCompatActivity implements MerchandiseAdapte
     }
 
     private void setupData() {
-        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
-                "Airplane", "4560", "4"));
-        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/pool.png",
-                "Pool", "76900", "5"));
-        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/fruits.png",
-                "Fruits", "5674", "2"));
-        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/serrano.png",
-                "Serrano", "4432", "1"));
-        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/tulips.png",
-                "Tulips", "3377", "7"));
-        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/monarch.png",
-                "Monarch", "8843", "19"));
+        Log.d(TAG, "setupData: setting up data");
+
+        if (mAuth.getCurrentUser() != null) {
+            uid = mAuth.getCurrentUser().getUid();
+        }
+
+        mDatabase.child(uid).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                mMerchandise.clear();
+
+                Merchandise merchandise = dataSnapshot.getValue(Merchandise.class);
+                mMerchandise.add(merchandise);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
     }
 
     private void setupNavigationHeader() {
