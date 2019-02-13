@@ -30,6 +30,14 @@
 
                 <include layout="@layout/app_bar" android:id="@+id/mToolbar"/>
 
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/mRecyclerView"
+                    android:layout_below="@+id/mToolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+
                 <android.support.design.widget.FloatingActionButton
                     android:id="@+id/mFab"
                     android:layout_width="wrap_content"

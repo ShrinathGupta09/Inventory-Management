@@ -6,6 +6,9 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
@@ -17,7 +20,10 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class MainActivity extends AppCompatActivity implements MerchandiseAdapter.OnMerchClickListener {
 
     private static final String TAG = "MainActivity";
 
@@ -31,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private DatabaseReference mDatabase;
     private FirebaseAuth mAuth;
     private String user_email;
+    private ArrayList<Merchandise> mMerchandise = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
         user_email = getUserEmail();
 
         setupToolbar();
+        setupData();
+        setupRecyclerView();
 
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
@@ -94,11 +103,35 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Home");
     }
 
+    private void setupData() {
+        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
+                "Airplane", "4560", "4"));
+        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/pool.png",
+                "Pool", "76900", "5"));
+        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/fruits.png",
+                "Fruits", "5674", "2"));
+        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/serrano.png",
+                "Serrano", "4432", "1"));
+        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/tulips.png",
+                "Tulips", "3377", "7"));
+        mMerchandise.add(new Merchandise("https://homepages.cae.wisc.edu/~ece533/images/monarch.png",
+                "Monarch", "8843", "19"));
+    }
+
     private void setupNavigationHeader() {
         View header = navigationView.getHeaderView(0);
         final TextView nav_username = header.findViewById(R.id.nav_username);
         final TextView nav_useremail = header.findViewById(R.id.nav_useremail);
         final TextView nav_header_version = header.findViewById(R.id.nav_header_version);
+    }
+
+    public void setupRecyclerView(){
+        Log.d(TAG, "setupRecyclerView: setting up recyclerview");
+        RecyclerView mRecyclerView = findViewById(R.id.mRecyclerView);
+        MerchandiseAdapter adapter = new MerchandiseAdapter(this, mMerchandise, this);
+        mRecyclerView.setAdapter(adapter);
+        StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
+        mRecyclerView.setLayoutManager(staggeredGridLayoutManager);
     }
 
     private String getUserEmail() {
@@ -110,5 +143,10 @@ public class MainActivity extends AppCompatActivity {
             return user_email;
         }
         return null;
+    }
+
+    @Override
+    public void onMerchClick(int position) {
+        Log.d(TAG, "onMerchClick: clicked");
     }
 }
