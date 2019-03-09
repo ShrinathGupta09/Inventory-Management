@@ -8,6 +8,11 @@
 </ul>
 <h2>Screenshots</h2>
 <h2>Dependencies</h2>
+<ul>
+  <li>Support: AppCompat, Design</li>
+  <li>Database:Firebase</li>
+  `<li></li>
+</ul>
 <h2>Inside Story</h2>
 <ul>
 <li>This application was developed during Hackathon 2019 at Vidyalankar Institute of Technology(VIT) in 12 hours</li>
