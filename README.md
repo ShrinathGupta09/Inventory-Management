@@ -11,7 +11,7 @@
 <ul>
   <li>Support: AppCompat, Design</li>
   <li>Database:Firebase</li>
-  `<li></li>
+  `<li>Glide</li>
 </ul>
 <h2>Inside Story</h2>
 <ul>
