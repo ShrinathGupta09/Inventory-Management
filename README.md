@@ -7,8 +7,7 @@
 <h2>Technical Info</h2>
 <ul>
 <li>Written in Java </li>
-<li>The purpose of this application is to make the merchants aware of the inventory</li>
-<li>The application has an Admin account that keeps track of all the merchant account</li>
+<li>Database used is Firebase</li>
 </ul>
 <h2>Screenshots</h2>
 <h2>Dependencies</h2>
