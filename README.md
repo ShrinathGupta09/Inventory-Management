@@ -10,10 +10,10 @@
 <li>Database used is Firebase</li>
 </ul>
 <h2>Screenshots</h2>
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" width="300" alt="Start Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png" width="300" alt="Login Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png" width="300" alt="Items Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png" width="300" alt="Add Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" width="200" alt="Start Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png" width="200" alt="Login Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png" width="200" alt="Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png" width="200" alt="Add Items Screen">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" width="300" alt="Drawer Screen">
 <h2>Dependencies</h2>
 <ul>
