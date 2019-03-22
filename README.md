@@ -1,3 +1,31 @@
+<head>
+ <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+ </head>
 <h1>Inventory Management</h1>
 <ul>
 <li>An Android application that allow the merchants to keep track of the goods in the inventory</li>
@@ -12,7 +40,7 @@
 <h2>Screenshots</h2>
 <div class="row">
 <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" style="width:1%" alt="Start Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" width="" style="width:1%" alt="Start Screen">
  </div>
 <div class="column">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  style="width:10%" alt="Login Screen">
