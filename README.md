@@ -9,13 +9,7 @@
 <li>Written in Java </li>
 <li>Database used is Firebase</li>
 </ul>
-<h2>Screenshots</h2>
-<div align="center">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  align="center" width="200" alt="Login Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  align="center"width="200" alt="Items Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"   align="center"width="200" alt="Add Items Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" align="center" width="200" alt="Drawer 
-</div>                                                                                                                                   <h2>Dependencies</h2>
+<h2>Dependencies</h2>
 <ul>
   <li>Support: AppCompat, Design</li>
   <li>Database:Firebase</li>
@@ -32,3 +26,11 @@ Shrinath Gupta<br>
 Prathamesh Shirke<br>
 <h2>Download</h2>
  <a href="https://github.com/ShrinathGupta09/Inventory-Management/raw/master/apk/management.apk">Click Here to Download!!</a>                   
+
+<h2>Screenshots</h2>
+<div align="center">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  align="center" width="200" alt="Login Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  align="center"width="200" alt="Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"   align="center"width="200" alt="Add Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" align="center" width="200" alt="Drawer 
+</div>                                                                                                                                   
