@@ -16,16 +16,16 @@
   </div>
   
   <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png" width="200" alt="Login Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  style="width:100%" alt="Login Screen">
 </div>
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png" width="200" alt="Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  style="width:100%"alt="Items Screen">
 
   <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png" width="200" alt="Add Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"  style="width:100%" alt="Add Items Screen">
 </div>
 
   <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" width="300" alt="Drawer Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" width="300" style="width:100%" alt="Drawer Screen">
 </div>
 </div>
 <h2>Dependencies</h2>
