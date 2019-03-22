@@ -10,11 +10,24 @@
 <li>Database used is Firebase</li>
 </ul>
 <h2>Screenshots</h2>
+<div class="row">
+  <div class="column">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" width="200" alt="Start Screen">
+  </div>
+  
+  <div class="column">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png" width="200" alt="Login Screen">
+</div>
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png" width="200" alt="Items Screen">
+
+  <div class="column">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png" width="200" alt="Add Items Screen">
+</div>
+
+  <div class="column">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" width="300" alt="Drawer Screen">
+</div>
+</div>
 <h2>Dependencies</h2>
 <ul>
   <li>Support: AppCompat, Design</li>
