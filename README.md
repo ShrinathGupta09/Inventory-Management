@@ -15,8 +15,9 @@
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  align="center" width="200" alt="Login Screen">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  align="center"width="200" alt="Items Screen">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"   align="center"width="200" alt="Add Items Screen">
+ </div>   
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" align="center" width="200" alt="Drawer Screen">
-                                                                                                                                               </div>                                                                                                                                        
+                                                                                                                                                    
                                                                                                                                         
 <h2>Dependencies</h2>
 <ul>
