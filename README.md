@@ -12,19 +12,19 @@
 <h2>Screenshots</h2>
 <div class="row">
 <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" width="200" alt="Start Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" style="width:50%" alt="Start Screen">
  </div>
 <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  style="width:" alt="Login Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  style="width:50%" alt="Login Screen">
 </div>
 <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  style="width:100%"alt="Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  style="width:50%"alt="Items Screen">
  </div>
  <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"  style="width:100%" alt="Add Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"  style="width:50%" alt="Add Items Screen">
 </div>
 <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" width="300" style="width:100%" alt="Drawer Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" style="width:50%" alt="Drawer Screen">
 </div>
 </div>
 <h2>Dependencies</h2>
