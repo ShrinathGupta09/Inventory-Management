@@ -10,11 +10,11 @@
 <li>Database used is Firebase</li>
 </ul>
 <h2>Screenshots</h2>
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" width="200"  "alt="Start Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"   width="200" alt="Login Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  width="200" alt="Items Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"   width="200" alt="Add Items Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png"  width="200" alt="Drawer Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" align="center"width="200"  "alt="Start Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  align="center" width="200" alt="Login Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  align="center"width="200" alt="Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"   align="center"width="200" alt="Add Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" align="center" width="200" alt="Drawer Screen">
 <h2>Dependencies</h2>
 <ul>
   <li>Support: AppCompat, Design</li>
@@ -31,4 +31,4 @@ Danyl Fernandez @gitryder<br>
 Shrinath Gupta<br>
 Prathamesh Shirke<br>
 <h2>Download</h2>
- <a href="">Click Here to Download!!</a>                                                                                                                               
+ <a href="https://github.com/ShrinathGupta09/Inventory-Management/tree/master/apk/management.apk">Click Here to Download!!</a>                                                                                                                               
