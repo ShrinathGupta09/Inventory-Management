@@ -31,4 +31,4 @@ Danyl Fernandez @gitryder<br>
 Shrinath Gupta<br>
 Prathamesh Shirke<br>
 <h2>Download</h2>
- <a href="https://github.com/ShrinathGupta09/Inventory-Management/raw/master/apk/management.apk">Click Here to Download!!</a>                                                                                                                               
+ <a href="https://github.com/ShrinathGupta09/Inventory-Management/raw/master/apk/management.apk">Click Here to Download!!</a>                   
