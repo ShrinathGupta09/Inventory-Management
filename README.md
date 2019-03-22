@@ -11,20 +11,19 @@
 </ul>
 <h2>Screenshots</h2>
 <div class="row">
-  <div class="column">
+<div class="column">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Start.png" width="200" alt="Start Screen">
-  </div>
-  
-  <div class="column">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  style="width:100%" alt="Login Screen">
+ </div>
+<div class="column">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  style="width:" alt="Login Screen">
 </div>
+<div class="column">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  style="width:100%"alt="Items Screen">
-
-  <div class="column">
+ </div>
+ <div class="column">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"  style="width:100%" alt="Add Items Screen">
 </div>
-
-  <div class="column">
+<div class="column">
 <img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" width="300" style="width:100%" alt="Drawer Screen">
 </div>
 </div>
