@@ -10,7 +10,7 @@
 <li>Database used is Firebase</li>
 </ul>
 <h2>Screenshots</h2>
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png" width="200" height="500">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png" width="300" >
 <h2>Dependencies</h2>
 <ul>
   <li>Support: AppCompat, Design</li>
