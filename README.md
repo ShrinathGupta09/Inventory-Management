@@ -22,13 +22,6 @@ This project is not under active development.
 <li>This application was developed during Hackathon 2019 at Vidyalankar Institute of Technology(VIT) in 12 hours</li>
 <li>The application was developed by Danyl Fernandez & Shrinath Gupta and icons were designed by Prathamesh Shirke</li>
 </ul>
-<h2>Screenshots</h2>
-<div align="center">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  align="center" width="200" alt="Login Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  align="center"width="200" alt="Items Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"   align="center"width="200" alt="Add Items Screen">
-<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" align="center" width="200" alt="Drawer 
-</div>
 <h2>Contributer</h2>
 Danyl Fernandez @gitryder<br>
 Shrinath Gupta<br>
@@ -40,6 +33,14 @@ Prathamesh Shirke<br>
   <li> Feel to contribute to this project </li>
   <li>You can reach out to me on [Twitter](https://twitter.com/gupta_shrinath)</li>
 </ul>                                                                                              
-                                                                      
+          
+<h2>Screenshots</h2>
+<div align="center">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Login.png"  align="center" width="200" alt="Login Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/View.png"  align="center"width="200" alt="Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Add.png"   align="center"width="200" alt="Add Items Screen">
+<img src="https://github.com/ShrinathGupta09/Inventory-Management/blob/master/Images/Drawer.png" align="center" width="200" alt="Drawer 
+</div>
+                                                            
                                                                                                 
                                                                                                                             
