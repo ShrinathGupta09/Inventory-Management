@@ -31,7 +31,7 @@ Prathamesh Shirke<br>
 <h2>Additional Info </h2>
 <ul>
   <li> Feel to contribute to this project </li>
-  <li>You can reach out to me on [Twitter](https://twitter.com/gupta_shrinath)</li>
+  <li>You can reach out to me on [I'm an inline-style link](https://www.google.com)</li>
 </ul>                                                                                              
           
 <h2>Screenshots</h2>
