@@ -37,8 +37,8 @@ Prathamesh Shirke<br>
  <a href="https://github.com/ShrinathGupta09/Inventory-Management/raw/master/apk/management.apk">Click Here to Download!!</a>                   
 <h2>Additional Info </h2>
 <ul>
-<li> Feel to contribute to this project </li>
-<li>You can reach out to me on [twitter](https://twitter.com/gupta_shrinath)</li>
+  <li> Feel to contribute to this project </li>
+  <li>You can reach out to me on [Twitter](https://twitter.com/gupta_shrinath)</li>
 </ul>                                                                                              
                                                                       
                                                                                                 
